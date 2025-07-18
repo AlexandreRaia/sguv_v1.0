@@ -1,4 +1,4 @@
-# SGUV - Sistema de Gerenciamento de Utilização de Veículos
+# SGUV - Sistema de Gerenciamento de Utilização de Veículos v1.0
 
 Sistema completo para digitalização e automatização do controle de utilização de veículos, substituindo formulários físicos por uma solução moderna e eficiente.
 
@@ -6,42 +6,47 @@ Sistema completo para digitalização e automatização do controle de utilizaç
 
 O SGUV é um sistema que oferece:
 - **API REST** desenvolvida em FastAPI para backend
-- **Aplicativo móvel/desktop** desenvolvido em Flet para motoristas
-- **Interface web** para administradores e gestores
+- **Aplicativo desktop** desenvolvido em Flet para interface administrativa
+- **Interface moderna** com sistema de avatars de usuário
 - **Controle completo** de usuários, veículos, rotas e utilizações
 - **Integração** com Google Maps para geolocalização
-- **Relatórios** e análises de utilização
+- **Autenticação segura** com JWT e controle de perfis
 
 ## 🚀 Funcionalidades Principais
 
-### Para Motoristas
+### Para Administradores
+- ✅ Gerenciamento completo de usuários com avatars
+- ✅ Upload e gerenciamento de avatars de usuário
+- ✅ Gerenciamento de veículos
+- ✅ Controle de perfis (admin/motorista)
+- ✅ Interface moderna e responsiva
+- ✅ Visualização de todos os controles
+- ✅ Sistema de busca e filtros avançados
+
+### Para Motoristas  
 - ✅ Login/logout seguro
 - ✅ Iniciar controle de utilização de veículo
 - ✅ Adicionar rotas com geolocalização automática
-- ✅ Finalizar controle com assinatura eletrônica
-- ✅ Visualizar histórico de utilizações
-- 🔄 Funcionamento offline (sincronização automática)
+- ✅ Finalizar controle de utilização
+- ✅ Visualizar histórico pessoal
+- ✅ Perfil personalizado com avatar
 
-### Para Administradores
-- ✅ Gerenciamento completo de usuários
-- ✅ Gerenciamento de veículos
-- ✅ Aprovação de novos usuários
-- ✅ Visualização de todos os controles
-- ✅ Relatórios e análises
-- 📊 Dashboard com estatísticas
-
-### Para Gestores/Operadores
-- ✅ Visualização de controles e relatórios
-- ✅ Consulta de informações
-- 📋 Conferência de relatórios
+### Sistema de Avatars
+- ✅ Upload de imagens de avatar (JPG, PNG)
+- ✅ Redimensionamento automático e otimização
+- ✅ Exibição em alta qualidade na interface
+- ✅ Gerenciamento completo (adicionar/remover)
+- ✅ Integração com tabela de usuários
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Backend**: FastAPI + SQLAlchemy + SQLite
-- **Frontend**: Flet (Python)
-- **Autenticação**: JWT + bcrypt
+- **Frontend**: Flet (Python) + Interface moderna
+- **Autenticação**: JWT + bcrypt + controle de perfis
+- **Upload de Arquivos**: Multipart form data + validação
 - **Geolocalização**: Google Maps Geocoding API
-- **Banco de Dados**: SQLite (portável e simples)
+- **Banco de Dados**: SQLite com relacionamentos
+- **Serviços de Arquivo**: Static file serving integrado
 
 ## 📦 Instalação
 
